@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600&display=swap');
+
+:root {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-family: inherit;
+}
+

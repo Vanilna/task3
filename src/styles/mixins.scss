@@ -1,0 +1,16 @@
+@mixin heading ($size, $margin) {
+  margin: $margin;
+  padding: 0;
+  font-weight:300;
+  font-size: $size;
+  text-transform: uppercase;
+  color: $dark-accents;
+}
+
+@mixin line ($color) {
+    display: block;
+    content: '';
+    width: 100vw;
+    height: .1rem;
+    background-color: $color;
+}
