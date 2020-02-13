@@ -27,10 +27,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
-  @media (min-width: $layout-breakpoint) {
-    height: 300px;
-  }
 }
 
 .mainNav {
