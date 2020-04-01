@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,600&display=swap");
+:root {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fdf1f0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  overflow-x: hidden;
+}
+
+.header {
+  flex-basis: 100vw;
+}
+.header::after {
+  display: block;
+  content: "";
+  width: 100vw;
+  height: 0.1rem;
+  background-color: #fb991a;
+}
+
+.hero {
+  min-width: 100vw;
+  height: 150px;
+  background-image: url("https://cdn.pixabay.com/photo/2016/06/01/06/24/journal-1428424_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainNav {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  background-color: #022539;
+  color: #fdf1f0;
+  padding: 0.2rem 5rem;
+}
+.mainNav .logo {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fb991a;
+}
+.mainNav ul {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mainNav li {
+  list-style: none;
+}
+.mainNav a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.mainNav a:hover {
+  color: #fb991a;
+}
+
+.main {
+  flex-basis: 65vw;
+  padding: 0 3rem;
+  margin-top: 3rem;
+}
+.main .article {
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+.main h2 {
+  margin: 0 0 1.7rem 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #022539;
+}
+.main p {
+  margin: 0.5rem 0;
+}
+
+.about {
+  flex-basis: 25vw;
+  border: 1px solid #1b7791;
+  padding: 1rem;
+  border-radius: 15px;
+  margin-top: 3rem;
+}
+.about img {
+  max-width: 25vw;
+}
+.about h3 {
+  margin: 1rem 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #022539;
+}
+
+.button {
+  border: none;
+  background-color: #1b7791;
+  color: #fdf1f0;
+  font-size: 1rem;
+  padding: 0.3rem 0.7rem;
+  margin: 1rem 0;
+}
+.button:hover {
+  background-color: #fb991a;
+}
+
+.footer {
+  width: 100vw;
+  background-color: #1b7791;
+  color: #fdf1f0;
+}
+.footer::before {
+  display: block;
+  content: "";
+  width: 100vw;
+  height: 0.1rem;
+  background-color: #022539;
+}
+.footer p {
+  margin: 0.3rem 5rem;
+  text-align: right;
+  font-size: 0.9rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
